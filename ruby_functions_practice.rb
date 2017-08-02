@@ -75,8 +75,10 @@ def number_to_full_month_name(month)
     return "October"
   elsif month == 11
     return "November"
-  else
+  elsif month == 12
     return "December"
+  else
+    return "This does not correlate to a month"
   end
 end
 
@@ -105,8 +107,10 @@ def number_to_short_month_name(month)
     return "Oct"
   elsif month == 11
     return "Nov"
-  else
+  elsif month == 12
     return "Dec"
+  else
+    return "This does not correlate to a month"
   end
 end
 
